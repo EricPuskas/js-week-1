@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #c0c0c0;
+}
+
+.value-container {
+  margin: 8px
+}
+
+.value-container > label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
